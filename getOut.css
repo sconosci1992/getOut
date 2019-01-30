@@ -1,0 +1,30 @@
+* {
+    padding : 0;
+    margin : 0;
+}
+
+body {
+    background : white;
+    color : black;
+}
+
+.header {
+margin-top: 30px;
+}
+
+ul {
+position: fixed;
+top: 0;
+right: 0;
+list-style-type: none;
+}
+
+li {
+display: inline-block;
+padding: 3px;
+border: 2px solid green;
+}
+
+.navBar {
+background: black;
+}
