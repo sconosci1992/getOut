@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	position: static;
+	height: 69px;
+	padding: 0 3% 0 3%;
+	display: inline-block;
+	width: 94%;
+	box-shadow: 0px 2px 2px 1px #ccc;
+	z-index: 0;
+}
+
+nav img {
+	display: inline-block;
+	font-family: sans-serif;
+	padding-right: 7%;
+}
+
+a:link {
+	color: rgba(53, 50, 47, .8);
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+a:hover {
+	color: #1ed01a;
+}
+
+nav a {
+  padding: 0 8px;
+  font-size: 1.2em;
+}
+
+.dayOff ul {
+  display: inline-block;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+.dayOff ul > li {
+  display: inline;
+  float: left;
+}
+
+.dayOff input{
+  display: none;
+}
+
+.dayOff ul > li > label {
+  padding: 5px 12px 2px 12px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: transparent;
+  color: #444;
+  border: 1px solid #ccc;
+  border-left-width: 0;
+  font-family: helvetica;
+  font-size: 12px;
+}
+
+.dayOff ul > li:first-child > label {
+  border-left-width: 1px;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.dayOff ul > li:last-child > label {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.dayOff ul > li > :checked + label {
+  background-color: #1ed01a;
+  color: white;
+  background-image: linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.activity > input {
+	display: inline-block;
+}
